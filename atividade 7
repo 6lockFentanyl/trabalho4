@@ -1,0 +1,30 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro reais
+    inteiro dolares
+    inteiro valorPs5
+    real livro
+    inteiro quantidadeLivros
+
+    valorPs5 = 6500
+
+    livro = 82.96
+
+    quantidadeLivros = 6500 / 82.96
+
+		escreva("Quantos reais vc tem? ")
+		
+		leia(reais)
+    
+    dolares = reais / 5.65
+
+		escreva("falta ", (dolares - 1300) * -1, " dólares para comprar o PS5; ")
+		
+		escreva("falta ", (reais - 6500) * -1, " reais para comprar o PS5; ")
+		
+		escreva("", quantidadeLivros, " livros do Harry Potter e a Ordem da Fênix dá o mesmo valor de um PS5.")
+	}
+}
