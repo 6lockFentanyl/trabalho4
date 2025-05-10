@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real largura
+		
+		real comprimento
+		
+		escreva("qual é a largura e o comprimento do estádio Maracanã em metros? \n")
+		
+		leia(largura)
+		
+		leia(comprimento)
+		
+		escreva("A área do estádio é de ", largura * comprimento, " metros")
+		
+		escreva("; O dobro da área é de ", largura * comprimento * 2, " metros")
+		
+		escreva("; isso em centímetros é ", largura * comprimento * 2 * 100)
+	}
+}
