@@ -1,0 +1,10 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro nota1, nota2, nota3, nota4
+		leia(nota1, nota2, nota3, nota4)
+		escreva((nota1 + nota2 + nota3 + nota4) / 4)
+	}
+}
